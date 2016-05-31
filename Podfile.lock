@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - JSONModel (1.2.0)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - MD5Digest (1.1.0)
+  - MJRefresh (3.1.0)
+  - SBJson (4.0.2)
+  - SDCycleScrollView (1.64):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - JSONModel (~> 1.2.0)
+  - Masonry (~> 1.0.0)
+  - MBProgressHUD (~> 0.9.2)
+  - MD5Digest (~> 1.1.0)
+  - MJRefresh (~> 3.1.0)
+  - SBJson (~> 4.0.2)
+  - SDCycleScrollView (~> 1.64)
+  - SDWebImage (~> 3.7.6)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+PODFILE CHECKSUM: 31082872edf2ef7f7639ec7e34959c179319dcce
+
+COCOAPODS: 1.0.0.rc.2
