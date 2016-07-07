@@ -28,6 +28,7 @@
 		47B45F3F1D2E5A1100DEA525 /* HomeFistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B45F3E1D2E5A1100DEA525 /* HomeFistViewController.m */; };
 		47B45F431D2EB51300DEA525 /* NSString+SiZheString.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B45F421D2EB51300DEA525 /* NSString+SiZheString.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		47B4DF9D1D2EC28000863D8E /* UIView+SiZheView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DF9C1D2EC28000863D8E /* UIView+SiZheView.m */; };
+		47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DF9F1D2ECF5B00863D8E /* YGSectionHeaderView.m */; };
 		47BC012A1D2E3EB2006E4908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BC01291D2E3EB2006E4908 /* Images.xcassets */; };
 		47BC01521D2E5500006E4908 /* UIBarButtonItem+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 47BC01511D2E5500006E4908 /* UIBarButtonItem+Navigation.m */; };
 		ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */; };
@@ -93,6 +94,8 @@
 		47B45F421D2EB51300DEA525 /* NSString+SiZheString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SiZheString.m"; sourceTree = "<group>"; };
 		47B4DF9B1D2EC28000863D8E /* UIView+SiZheView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SiZheView.h"; sourceTree = "<group>"; };
 		47B4DF9C1D2EC28000863D8E /* UIView+SiZheView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SiZheView.m"; sourceTree = "<group>"; };
+		47B4DF9E1D2ECF5B00863D8E /* YGSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSectionHeaderView.h; sourceTree = "<group>"; };
+		47B4DF9F1D2ECF5B00863D8E /* YGSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSectionHeaderView.m; sourceTree = "<group>"; };
 		47BC01291D2E3EB2006E4908 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		47BC01501D2E5500006E4908 /* UIBarButtonItem+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Navigation.h"; sourceTree = "<group>"; };
 		47BC01511D2E5500006E4908 /* UIBarButtonItem+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Navigation.m"; sourceTree = "<group>"; };
@@ -421,6 +424,8 @@
 		47B45F401D2EB4F500DEA525 /* 封住类 */ = {
 			isa = PBXGroup;
 			children = (
+				47B4DF9E1D2ECF5B00863D8E /* YGSectionHeaderView.h */,
+				47B4DF9F1D2ECF5B00863D8E /* YGSectionHeaderView.m */,
 				47B45F411D2EB51300DEA525 /* NSString+SiZheString.h */,
 				47B45F421D2EB51300DEA525 /* NSString+SiZheString.m */,
 				47B4DF9B1D2EC28000863D8E /* UIView+SiZheView.h */,
@@ -612,6 +617,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4749EEAE1CFD5EBE0031A006 /* HomePageViewController.m in Sources */,
+				47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */,
 				477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */,
 				4749EEB51CFD5EC90031A006 /* ShopingPageViewController.m in Sources */,
 				477E2E441CFD247000802045 /* main.m in Sources */,
