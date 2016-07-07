@@ -10,3 +10,10 @@
 //#define SZLog(...) NSLog(__VA_ARGS__)
 //#else // 发布阶段
 //#define SZLog(...)
+#define RGB(__r, __g, __b)  [UIColor colorWithRed:(1.0*(__r)/255)\
+green:(1.0*(__g)/255)\
+blue:(1.0*(__b)/255)\
+alpha:1.0]
+#import "UIView+SiZheView.h"
+#import "SDCycleScrollView.h"
+#import "NSString+SiZheString.h"

@@ -1,22 +1,23 @@
 //
-//  RootViewController.m
+//  HomeFistViewController.m
 //  exercise
 //
-//  Created by 哲 on 16/5/31.
+//  Created by 哲 on 16/7/7.
 //  Copyright © 2016年 XSZ. All rights reserved.
 //
-#import "RootViewController.h"
 
-@interface RootViewController ()
+#import "HomeFistViewController.h"
+
+@interface HomeFistViewController ()
 
 @end
 
-@implementation RootViewController
+@implementation HomeFistViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.view.backgroundColor =[UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -26,15 +26,13 @@
 
     NSArray *array =@[@"HomePageViewController",@"ShopingPageViewController",@"ChatPageViewController",@"MapPageViewController"];
     _arrayBar =[NSMutableArray array];
-    for (NSString *dic in array) {
-        UIViewController *vc =[NSClassFromString(dic) new];
+    
+    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        UIViewController *vc =[NSClassFromString(obj) new];
         [_arrayBar addObject:vc];
-    }
+    }];
     UITabBarController *SZTabBar =[UITabBarController initWithTabBarArray:_arrayBar imageXV:@[@"",@"",@"",@"",@"",@"",@"",@""] textXV:@[@"首页",@"购物",@"聊天",@"地图"] navigationColor:[UIColor grayColor] tabBarColor:[UIColor grayColor] textBeforeColor:[UIColor blueColor] textAfterColor:[UIColor redColor]];
     self.window.rootViewController = SZTabBar;
-    
-    
-    
     
     return YES;
 }

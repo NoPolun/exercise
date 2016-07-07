@@ -75,8 +75,7 @@
     
     [[UINavigationBar appearance]setHidden:NO];
     [[UINavigationBar appearance]setTranslucent:NO];
-    [[UINavigationBar appearance]setHidden:NO];
-    [[UINavigationBar appearance]setTranslucent:NO];
+   
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                        beforColor, UITextAttributeTextColor,
                                                        nil] forState:UIControlStateNormal];
