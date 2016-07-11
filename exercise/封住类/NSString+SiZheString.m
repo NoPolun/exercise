@@ -95,5 +95,11 @@
         range:NSMakeRange(0, [self length])];
     return isMatchCellphone;
 }
+//图片防止渲染
+-(UIImage *)getImageTheRenderingString{
+    UIImage *imageRendering =[UIImage imageNamed:self];
+    imageRendering =[imageRendering imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    return imageRendering;
+}
 
 @end

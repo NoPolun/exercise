@@ -27,4 +27,6 @@
 -(BOOL)validateEmail;
 //效验手机号的正则表达式
 - (NSTextCheckingResult *)checkCellPhoneNum;
+//图片防止渲染
+-(UIImage *)getImageTheRenderingString;
 @end

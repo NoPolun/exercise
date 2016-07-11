@@ -7,7 +7,7 @@
 //
 
 #import "SZBaseViewController.h"
-
+#import "HomeButtonView.h"
 @interface HomePageViewController : SZBaseViewController
 
 @end
