@@ -43,6 +43,16 @@
 		47D0C5A01D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C59C1D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m */; };
 		47D0C5A71D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5A61D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m */; };
 		47D0C5A81D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5A61D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m */; };
+		47D0C5BB1D33691A00E73E88 /* MapDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5BA1D33691A00E73E88 /* MapDescriptionController.m */; };
+		47D0C5BC1D33691A00E73E88 /* MapDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5BA1D33691A00E73E88 /* MapDescriptionController.m */; };
+		47D0C5BF1D33692800E73E88 /* CLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5BE1D33692800E73E88 /* CLayerViewController.m */; };
+		47D0C5C01D33692800E73E88 /* CLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5BE1D33692800E73E88 /* CLayerViewController.m */; };
+		47D0C5C31D33693500E73E88 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5C21D33693500E73E88 /* CATransitionViewController.m */; };
+		47D0C5C41D33693500E73E88 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5C21D33693500E73E88 /* CATransitionViewController.m */; };
+		47D0C5C71D33693F00E73E88 /* AttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5C61D33693F00E73E88 /* AttributeViewController.m */; };
+		47D0C5C81D33693F00E73E88 /* AttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5C61D33693F00E73E88 /* AttributeViewController.m */; };
+		47D0C5CB1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */; };
+		47D0C5CC1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */; };
 		ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +133,16 @@
 		47D0C59C1D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CustomItem.m"; sourceTree = "<group>"; };
 		47D0C5A51D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SiZheButtonItem.h"; sourceTree = "<group>"; };
 		47D0C5A61D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SiZheButtonItem.m"; sourceTree = "<group>"; };
+		47D0C5B91D33691A00E73E88 /* MapDescriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDescriptionController.h; sourceTree = "<group>"; };
+		47D0C5BA1D33691A00E73E88 /* MapDescriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDescriptionController.m; sourceTree = "<group>"; };
+		47D0C5BD1D33692800E73E88 /* CLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLayerViewController.h; sourceTree = "<group>"; };
+		47D0C5BE1D33692800E73E88 /* CLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLayerViewController.m; sourceTree = "<group>"; };
+		47D0C5C11D33693500E73E88 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		47D0C5C21D33693500E73E88 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		47D0C5C51D33693F00E73E88 /* AttributeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeViewController.h; sourceTree = "<group>"; };
+		47D0C5C61D33693F00E73E88 /* AttributeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeViewController.m; sourceTree = "<group>"; };
+		47D0C5C91D33A01900E73E88 /* OtherAaimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAaimeViewController.h; sourceTree = "<group>"; };
+		47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherAaimeViewController.m; sourceTree = "<group>"; };
 		9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD7F3836EDAD75AC2B2F50B /* Pods-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.debug.xcconfig"; sourceTree = "<group>"; };
 		F5DE9EE8D2487D26FAED3E6B /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
@@ -332,6 +352,16 @@
 			children = (
 				4749EEBE1CFD5EE20031A006 /* MapPageViewController.h */,
 				4749EEBF1CFD5EE20031A006 /* MapPageViewController.m */,
+				47D0C5B91D33691A00E73E88 /* MapDescriptionController.h */,
+				47D0C5BA1D33691A00E73E88 /* MapDescriptionController.m */,
+				47D0C5BD1D33692800E73E88 /* CLayerViewController.h */,
+				47D0C5BE1D33692800E73E88 /* CLayerViewController.m */,
+				47D0C5C11D33693500E73E88 /* CATransitionViewController.h */,
+				47D0C5C21D33693500E73E88 /* CATransitionViewController.m */,
+				47D0C5C51D33693F00E73E88 /* AttributeViewController.h */,
+				47D0C5C61D33693F00E73E88 /* AttributeViewController.m */,
+				47D0C5C91D33A01900E73E88 /* OtherAaimeViewController.h */,
+				47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -655,13 +685,16 @@
 			files = (
 				4749EEAE1CFD5EBE0031A006 /* HomePageViewController.m in Sources */,
 				47D0C5A71D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
+				47D0C5BF1D33692800E73E88 /* CLayerViewController.m in Sources */,
 				47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */,
 				477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */,
 				4749EEB51CFD5EC90031A006 /* ShopingPageViewController.m in Sources */,
 				477E2E441CFD247000802045 /* main.m in Sources */,
+				47D0C5C71D33693F00E73E88 /* AttributeViewController.m in Sources */,
 				4749EE871CFD2D440031A006 /* RootViewController.m in Sources */,
 				4749EEBC1CFD5ED80031A006 /* ChatPageViewController.m in Sources */,
 				47B45F3F1D2E5A1100DEA525 /* HomeFistViewController.m in Sources */,
+				47D0C5CB1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
 				47D0C59D1D2FDE8E00E73E88 /* CustomBarItem.m in Sources */,
 				47D0C59F1D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m in Sources */,
 				4749EEDB1CFE6DE30031A006 /* RequestNetWork.m in Sources */,
@@ -672,11 +705,13 @@
 				47D0C58F1D2F8A9200E73E88 /* UIButton+ImageTitleSpacing.m in Sources */,
 				4736A1D21D2F66FF00815DE4 /* MyAttributedStringBuilder.m in Sources */,
 				4749EE821CFD2CE90031A006 /* UITabBarController+XV.m in Sources */,
+				47D0C5BB1D33691A00E73E88 /* MapDescriptionController.m in Sources */,
 				4749EEC31CFD5EE20031A006 /* MapPageViewController.m in Sources */,
 				47B45F431D2EB51300DEA525 /* NSString+SiZheString.m in Sources */,
 				4749EE801CFD2CE90031A006 /* AppDelegate.m in Sources */,
 				47D0C5881D2F874A00E73E88 /* HomeButtonView.m in Sources */,
 				47D0C5931D2F94AA00E73E88 /* HomeTopCollectionViewCell.m in Sources */,
+				47D0C5C31D33693500E73E88 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,10 +722,15 @@
 				47D0C5A81D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
 				477E2E601CFD247100802045 /* exerciseTests.m in Sources */,
 				47D0C5941D2F94AA00E73E88 /* HomeTopCollectionViewCell.m in Sources */,
+				47D0C5C01D33692800E73E88 /* CLayerViewController.m in Sources */,
+				47D0C5BC1D33691A00E73E88 /* MapDescriptionController.m in Sources */,
 				47D0C59E1D2FDE8E00E73E88 /* CustomBarItem.m in Sources */,
+				47D0C5C81D33693F00E73E88 /* AttributeViewController.m in Sources */,
 				47D0C5891D2F874A00E73E88 /* HomeButtonView.m in Sources */,
 				47D0C5A01D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m in Sources */,
 				47D0C5901D2F8A9200E73E88 /* UIButton+ImageTitleSpacing.m in Sources */,
+				47D0C5C41D33693500E73E88 /* CATransitionViewController.m in Sources */,
+				47D0C5CC1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

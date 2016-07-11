@@ -64,7 +64,6 @@
         case 0:
           return CGSizeMake(ScreenWidth,HIGHSCALE(ScreenWidth, 400));
             break;
-           return CGSizeMake(ScreenWidth, 15);
         default:
             return CGSizeMake(ScreenWidth, 34);
             break;

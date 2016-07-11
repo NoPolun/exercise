@@ -18,4 +18,5 @@
 //typedef void(^MyClickback)(NSInteger obj);
 @property(nonatomic,weak)id <buttonClick>delegate;
 -(void)dictionary:(NSDictionary *)diction ;
+-(void)array:(NSArray *)array;
 @end

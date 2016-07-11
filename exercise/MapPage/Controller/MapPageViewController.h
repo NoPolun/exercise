@@ -7,7 +7,11 @@
 //
 
 #import "SZBaseViewController.h"
-
-@interface MapPageViewController : SZBaseViewController
+#import "MapDescriptionController.h"
+#import "CLayerViewController.h"
+#import "CATransitionViewController.h"
+#import "AttributeViewController.h"
+#import "OtherAaimeViewController.h"
+@interface MapPageViewController : SZBaseViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end
