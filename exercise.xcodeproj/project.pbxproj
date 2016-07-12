@@ -57,6 +57,12 @@
 		47D0C5D01D34AFBB00E73E88 /* UIImage+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */; };
 		47D0C60D1D34C02300E73E88 /* VideoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */; };
 		47D0C60E1D34C02300E73E88 /* VideoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */; };
+		47D0C6121D34CBFA00E73E88 /* LocateVieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C6111D34CBFA00E73E88 /* LocateVieController.m */; };
+		47D0C6131D34CBFA00E73E88 /* LocateVieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C6111D34CBFA00E73E88 /* LocateVieController.m */; };
+		47D0C6151D34D8A900E73E88 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D0C6141D34D8A900E73E88 /* CoreLocation.framework */; };
+		47D0C6181D34E22E00E73E88 /* MapMakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C6171D34E22E00E73E88 /* MapMakeViewController.m */; };
+		47D0C6191D34E22E00E73E88 /* MapMakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C6171D34E22E00E73E88 /* MapMakeViewController.m */; };
+		47D0C61B1D34E5D300E73E88 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D0C61A1D34E5D300E73E88 /* MapKit.framework */; };
 		ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +157,12 @@
 		47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Video.m"; sourceTree = "<group>"; };
 		47D0C60B1D34C02300E73E88 /* VideoImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoImageViewController.h; sourceTree = "<group>"; };
 		47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoImageViewController.m; sourceTree = "<group>"; };
+		47D0C6101D34CBFA00E73E88 /* LocateVieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateVieController.h; sourceTree = "<group>"; };
+		47D0C6111D34CBFA00E73E88 /* LocateVieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocateVieController.m; sourceTree = "<group>"; };
+		47D0C6141D34D8A900E73E88 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		47D0C6161D34E22E00E73E88 /* MapMakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMakeViewController.h; sourceTree = "<group>"; };
+		47D0C6171D34E22E00E73E88 /* MapMakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMakeViewController.m; sourceTree = "<group>"; };
+		47D0C61A1D34E5D300E73E88 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD7F3836EDAD75AC2B2F50B /* Pods-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.debug.xcconfig"; sourceTree = "<group>"; };
 		F5DE9EE8D2487D26FAED3E6B /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +173,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D0C61B1D34E5D300E73E88 /* MapKit.framework in Frameworks */,
+				47D0C6151D34D8A900E73E88 /* CoreLocation.framework in Frameworks */,
 				ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,6 +199,8 @@
 		028873CB757B78CE08386E6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47D0C61A1D34E5D300E73E88 /* MapKit.framework */,
+				47D0C6141D34D8A900E73E88 /* CoreLocation.framework */,
 				9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */,
 			);
 			name = Frameworks;
@@ -362,6 +378,7 @@
 				4749EEBF1CFD5EE20031A006 /* MapPageViewController.m */,
 				47D0C5B91D33691A00E73E88 /* MapDescriptionController.h */,
 				47D0C5BA1D33691A00E73E88 /* MapDescriptionController.m */,
+				47D0C60F1D34CBD800E73E88 /* 地图 */,
 				47D0C5BD1D33692800E73E88 /* CLayerViewController.h */,
 				47D0C5BE1D33692800E73E88 /* CLayerViewController.m */,
 				47D0C5C11D33693500E73E88 /* CATransitionViewController.h */,
@@ -513,6 +530,17 @@
 			path = "封住类";
 			sourceTree = "<group>";
 		};
+		47D0C60F1D34CBD800E73E88 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				47D0C6101D34CBFA00E73E88 /* LocateVieController.h */,
+				47D0C6111D34CBFA00E73E88 /* LocateVieController.m */,
+				47D0C6161D34E22E00E73E88 /* MapMakeViewController.h */,
+				47D0C6171D34E22E00E73E88 /* MapMakeViewController.m */,
+			);
+			name = "地图";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -583,6 +611,7 @@
 				TargetAttributes = {
 					477E2E3E1CFD247000802045 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2NJ9C6HADX;
 					};
 					477E2E5A1CFD247100802045 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -711,6 +740,7 @@
 				47D0C5CB1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
 				47D0C59D1D2FDE8E00E73E88 /* CustomBarItem.m in Sources */,
 				47D0C59F1D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m in Sources */,
+				47D0C6121D34CBFA00E73E88 /* LocateVieController.m in Sources */,
 				4749EEDB1CFE6DE30031A006 /* RequestNetWork.m in Sources */,
 				47B4DF9D1D2EC28000863D8E /* UIView+SiZheView.m in Sources */,
 				4749EE811CFD2CE90031A006 /* SZBasenavigationController.m in Sources */,
@@ -726,6 +756,7 @@
 				47D0C5881D2F874A00E73E88 /* HomeButtonView.m in Sources */,
 				47D0C5931D2F94AA00E73E88 /* HomeTopCollectionViewCell.m in Sources */,
 				47D0C5C31D33693500E73E88 /* CATransitionViewController.m in Sources */,
+				47D0C6181D34E22E00E73E88 /* MapMakeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,6 +777,8 @@
 				47D0C5901D2F8A9200E73E88 /* UIButton+ImageTitleSpacing.m in Sources */,
 				47D0C5C41D33693500E73E88 /* CATransitionViewController.m in Sources */,
 				47D0C60E1D34C02300E73E88 /* VideoImageViewController.m in Sources */,
+				47D0C6191D34E22E00E73E88 /* MapMakeViewController.m in Sources */,
+				47D0C6131D34CBFA00E73E88 /* LocateVieController.m in Sources */,
 				47D0C5CC1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -881,6 +914,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/exercise/SZPrefixHeader.pch";
 				INFOPLIST_FILE = exercise/Info.plist;
@@ -888,6 +923,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -897,6 +933,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/exercise/SZPrefixHeader.pch";
 				INFOPLIST_FILE = exercise/Info.plist;
@@ -904,6 +942,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

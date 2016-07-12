@@ -9,7 +9,10 @@
 #import "CLayerViewController.h"
 #import <QuartzCore/QuartzCore.h>
 @implementation CLayerViewController
-
+- (void)dealloc
+{
+    
+}
 -(void)viewDidLoad
 {
     [super viewDidLoad];
@@ -74,35 +77,35 @@
 }
 -(void)threeLayer
 {
-    CALayer *threeLayer =[CALayer layer];
-    threeLayer.delegate =self;
-    threeLayer.backgroundColor =[UIColor greenColor].CGColor;
-    //    阴影的偏移量
-    threeLayer.shadowOffset =CGSizeMake(0, 3);
-    threeLayer.cornerRadius = 10;
-    threeLayer.borderWidth = 2;
-    //    设置阴影的的模糊程度（值越大阴影越模糊）
-    threeLayer.borderColor =[UIColor blackColor].CGColor;
-    threeLayer.shadowRadius = 5.0;
-    threeLayer.shadowColor =[UIColor blackColor].CGColor;
-    //    设置阴影的透明程度
-    threeLayer.shadowOpacity = 0.8;
-    threeLayer.masksToBounds =YES;
-    threeLayer.frame =CGRectMake(30, 220, 310, 210);
-    [self.view.layer addSublayer:threeLayer];
+//    CALayer *threeLayer =[CALayer layer];
+//    threeLayer.delegate =self;
+//    threeLayer.backgroundColor =[UIColor greenColor].CGColor;
+//    //    阴影的偏移量
+//    threeLayer.shadowOffset =CGSizeMake(0, 3);
+//    threeLayer.cornerRadius = 10;
+//    threeLayer.borderWidth = 2;
+//    //    设置阴影的的模糊程度（值越大阴影越模糊）
+//    threeLayer.borderColor =[UIColor blackColor].CGColor;
+//    threeLayer.shadowRadius = 5.0;
+//    threeLayer.shadowColor =[UIColor blackColor].CGColor;
+//    //    设置阴影的透明程度
+//    threeLayer.shadowOpacity = 0.8;
+//    threeLayer.masksToBounds =YES;
+//    threeLayer.frame =CGRectMake(30, 220, 310, 210);
+//    [self.view.layer addSublayer:threeLayer];
     //    此句用于通知CALayer调用delegate的方法
-    [threeLayer setNeedsDisplay];
+//    [threeLayer setNeedsDisplay];
 }
 //重写该方法为CALayer绘制自定义内容
 -(void)drawLayer:(CALayer *)layer inContext:(CGContextRef)ctx
 {
-    UIColor *bgColor =[UIColor colorWithPatternImage:[UIImage imageNamed:@"icon_baiban"]];
-    CGContextSetFillColorWithColor(ctx, bgColor.CGColor);
-    CGContextFillEllipseInRect(ctx, CGRectMake(20, 20, 110, 110));
-    CGContextAddArcToPoint(ctx, 180, 20, 100, 60, 5);
-    CGContextFillPath(ctx);
-    CGContextSetRGBStrokeColor(ctx, 5, 160, 150, 60);
-    CGContextSetRGBFillColor(ctx, .5, 1, 1, 1);
-    CGContextFillPath(ctx);
+//    UIColor *bgColor =[UIColor colorWithPatternImage:[UIImage imageNamed:@"icon_baiban"]];
+//    CGContextSetFillColorWithColor(ctx, bgColor.CGColor);
+//    CGContextFillEllipseInRect(ctx, CGRectMake(20, 20, 110, 110));
+//    CGContextAddArcToPoint(ctx, 180, 20, 100, 60, 5);
+//    CGContextFillPath(ctx);
+//    CGContextSetRGBStrokeColor(ctx, 5, 160, 150, 60);
+//    CGContextSetRGBFillColor(ctx, .5, 1, 1, 1);
+//    CGContextFillPath(ctx);
 }
 @end
