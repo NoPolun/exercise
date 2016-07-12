@@ -12,6 +12,8 @@
 #import "CATransitionViewController.h"
 #import "AttributeViewController.h"
 #import "OtherAaimeViewController.h"
+#import "VideoImageViewController.h"
+
 @interface MapPageViewController : SZBaseViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end

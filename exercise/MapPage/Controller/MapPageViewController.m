@@ -32,7 +32,8 @@
              @"CLayerViewController",
              @"CATransitionViewController",
              @"AttributeViewController",
-             @"OtherAaimeViewController"];
+             @"OtherAaimeViewController",
+             @"VideoImageViewController"];
     [self creatTableView];
     
 }
