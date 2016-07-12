@@ -7,7 +7,6 @@
 //
 
 #import "ShopingPageViewController.h"
-
 @interface ShopingPageViewController ()
 
 @end
@@ -18,6 +17,7 @@
     [super viewDidLoad];
     self.title =@"购物";
     self.view.backgroundColor =[UIColor greenColor];
+    
 
 }
 

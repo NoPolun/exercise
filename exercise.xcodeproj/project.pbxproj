@@ -53,6 +53,10 @@
 		47D0C5C81D33693F00E73E88 /* AttributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5C61D33693F00E73E88 /* AttributeViewController.m */; };
 		47D0C5CB1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */; };
 		47D0C5CC1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */; };
+		47D0C5CF1D34AFBB00E73E88 /* UIImage+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */; };
+		47D0C5D01D34AFBB00E73E88 /* UIImage+Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */; };
+		47D0C60D1D34C02300E73E88 /* VideoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */; };
+		47D0C60E1D34C02300E73E88 /* VideoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */; };
 		ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +147,10 @@
 		47D0C5C61D33693F00E73E88 /* AttributeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeViewController.m; sourceTree = "<group>"; };
 		47D0C5C91D33A01900E73E88 /* OtherAaimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAaimeViewController.h; sourceTree = "<group>"; };
 		47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherAaimeViewController.m; sourceTree = "<group>"; };
+		47D0C5CD1D34AFBB00E73E88 /* UIImage+Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Video.h"; sourceTree = "<group>"; };
+		47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Video.m"; sourceTree = "<group>"; };
+		47D0C60B1D34C02300E73E88 /* VideoImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoImageViewController.h; sourceTree = "<group>"; };
+		47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoImageViewController.m; sourceTree = "<group>"; };
 		9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD7F3836EDAD75AC2B2F50B /* Pods-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.debug.xcconfig"; sourceTree = "<group>"; };
 		F5DE9EE8D2487D26FAED3E6B /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
@@ -362,6 +370,8 @@
 				47D0C5C61D33693F00E73E88 /* AttributeViewController.m */,
 				47D0C5C91D33A01900E73E88 /* OtherAaimeViewController.h */,
 				47D0C5CA1D33A01900E73E88 /* OtherAaimeViewController.m */,
+				47D0C60B1D34C02300E73E88 /* VideoImageViewController.h */,
+				47D0C60C1D34C02300E73E88 /* VideoImageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -496,6 +506,8 @@
 				4749EE7F1CFD2CE90031A006 /* UITabBarController+XV.m */,
 				47D0C5861D2F874A00E73E88 /* HomeButtonView.h */,
 				47D0C5871D2F874A00E73E88 /* HomeButtonView.m */,
+				47D0C5CD1D34AFBB00E73E88 /* UIImage+Video.h */,
+				47D0C5CE1D34AFBB00E73E88 /* UIImage+Video.m */,
 			);
 			name = "封装类";
 			path = "封住类";
@@ -687,11 +699,13 @@
 				47D0C5A71D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
 				47D0C5BF1D33692800E73E88 /* CLayerViewController.m in Sources */,
 				47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */,
+				47D0C60D1D34C02300E73E88 /* VideoImageViewController.m in Sources */,
 				477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */,
 				4749EEB51CFD5EC90031A006 /* ShopingPageViewController.m in Sources */,
 				477E2E441CFD247000802045 /* main.m in Sources */,
 				47D0C5C71D33693F00E73E88 /* AttributeViewController.m in Sources */,
 				4749EE871CFD2D440031A006 /* RootViewController.m in Sources */,
+				47D0C5CF1D34AFBB00E73E88 /* UIImage+Video.m in Sources */,
 				4749EEBC1CFD5ED80031A006 /* ChatPageViewController.m in Sources */,
 				47B45F3F1D2E5A1100DEA525 /* HomeFistViewController.m in Sources */,
 				47D0C5CB1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
@@ -719,6 +733,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D0C5D01D34AFBB00E73E88 /* UIImage+Video.m in Sources */,
 				47D0C5A81D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
 				477E2E601CFD247100802045 /* exerciseTests.m in Sources */,
 				47D0C5941D2F94AA00E73E88 /* HomeTopCollectionViewCell.m in Sources */,
@@ -730,6 +745,7 @@
 				47D0C5A01D2FDE8E00E73E88 /* UINavigationItem+CustomItem.m in Sources */,
 				47D0C5901D2F8A9200E73E88 /* UIButton+ImageTitleSpacing.m in Sources */,
 				47D0C5C41D33693500E73E88 /* CATransitionViewController.m in Sources */,
+				47D0C60E1D34C02300E73E88 /* VideoImageViewController.m in Sources */,
 				47D0C5CC1D33A01900E73E88 /* OtherAaimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

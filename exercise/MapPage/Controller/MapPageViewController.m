@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"地图";
-    arra  = @[@"地图",@"CALayer",@"CATransition",@"属性动画",@"其他"];
+    arra  = @[@"地图",@"CALayer",@"CATransition",@"属性动画",@"其他",@"获取视频截图作为图片"];
     self.view.backgroundColor =[UIColor whiteColor];
     array =@[@"MapDescriptionController",
              @"CLayerViewController",
@@ -59,7 +59,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 6;
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
