@@ -7,7 +7,6 @@
 //
 
 #import "UINavigationItem+CustomItem.h"
-
 @implementation UINavigationItem (CustomItem)
 
 - (CustomBarItem *)setItemWithTitle:(NSString *)title textColor:(UIColor *)color fontSize:(CGFloat)font itemType:(ItemType)type
@@ -30,6 +29,4 @@
     [item setItemWithNavigationItem:self itemType:type];
     return item;
 }
-
-
 @end

@@ -42,6 +42,8 @@
         [buttonClick setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [buttonClick setTitle:[obj objectForKey:@"title"] forState:UIControlStateNormal];
         buttonClick.tag = idx;
+        //防止多个button同时点击
+        [buttonClick  setExclusiveTouch:YES];
         [buttonClick addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
         //此处为设置图片和文字的相对位置
         [buttonClick layoutButtonWithEdgeInsetsStyle:MKButtonEdgeInsetsStyleTop
@@ -66,7 +68,8 @@
         UIButton* buttonClick =[UIButton buttonWithType:UIButtonTypeCustom];
         //此处具体坐标值根据自己公司的需求进行更改
         buttonClick.frame =CGRectMake (widthX ,highY,widthButton,highButton);
-      
+        [buttonClick setExclusiveTouch:YES];
+       
         [buttonClick setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [buttonClick setTitle:obj
                      forState:UIControlStateNormal];

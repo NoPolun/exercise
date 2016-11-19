@@ -26,12 +26,11 @@
 
     NSArray *array =@[@"HomePageViewController",@"ShopingPageViewController",@"ChatPageViewController",@"MapPageViewController"];
     _arrayBar =[NSMutableArray array];
-    
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         UIViewController *vc =[NSClassFromString(obj) new];
         [_arrayBar addObject:vc];
     }];
-    UITabBarController *SZTabBar =[UITabBarController initWithTabBarArray:_arrayBar imageXV:@[@"",@"",@"",@"",@"",@"",@"",@""] textXV:@[@"首页",@"购物",@"聊天",@"其他"] navigationColor:[UIColor grayColor] tabBarColor:[UIColor grayColor] textBeforeColor:[UIColor blueColor] textAfterColor:[UIColor redColor]];
+    UITabBarController *SZTabBar =[UITabBarController initWithTabBarArray:_arrayBar imageXV:@[@"",@"",@"",@"",@"",@"",@"",@""] textXV:@[@"首页",@"购物",@"视频",@"其他"] navigationColor:[UIColor whiteColor] tabBarColor:[UIColor grayColor] textBeforeColor:[UIColor blueColor] textAfterColor:[UIColor redColor]];
     self.window.rootViewController = SZTabBar;
     
     return YES;

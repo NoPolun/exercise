@@ -101,5 +101,11 @@
     imageRendering =[imageRendering imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     return imageRendering;
 }
-
+//复制文字
+-(void)getStringCopy
+{
+    UIPasteboard *pab = [UIPasteboard generalPasteboard];
+    NSString *string = self;
+    [pab setString:string];
+}
 @end

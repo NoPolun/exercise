@@ -29,4 +29,6 @@
 - (NSTextCheckingResult *)checkCellPhoneNum;
 //图片防止渲染
 -(UIImage *)getImageTheRenderingString;
+//复制文字
+-(void)getStringCopy;
 @end

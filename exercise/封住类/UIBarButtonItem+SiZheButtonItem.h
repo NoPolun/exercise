@@ -10,5 +10,5 @@
 #import "UIButton+ImageTitleSpacing.h"
 @interface UIBarButtonItem (SiZheButtonItem)
 +(instancetype)initWithLeftButtonItem:(NSString *)imageString selectImage:(NSString *)selectString addTarget:(id)target action:(SEL)action;
-
++(instancetype )initWithLeftButtonItem:(NSString *)string color:(UIColor *)color addTarget:(id)target action:(SEL)action;
 @end

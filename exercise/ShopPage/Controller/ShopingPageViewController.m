@@ -7,6 +7,7 @@
 //
 
 #import "ShopingPageViewController.h"
+#import "ShopFirstViewController.h"
 @interface ShopingPageViewController ()
 
 @end
@@ -16,11 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"购物";
-    self.view.backgroundColor =[UIColor greenColor];
+    UIButton *button =[UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame =CGRectMake(50, 50, 100, 100);
+    button.backgroundColor =[UIColor whiteColor];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(ss) forControlEvents:UIControlEventTouchUpInside];
     
+    self.view.backgroundColor =[UIColor greenColor];
+   
 
 }
-
+-(void)ss
+{
+    ShopFirstViewController *shop =[[ShopFirstViewController alloc]init];
+    [self.navigationController pushViewController:shop animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

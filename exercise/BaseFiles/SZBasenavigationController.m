@@ -25,7 +25,7 @@
 }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
     
-    if (self.childViewControllers.count > 0) { // 非根控制器
+    if (self.childViewControllers.count) { // 非根控制器
                 UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [backButton setTitle:@"返回" forState:UIControlStateNormal];
         [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];

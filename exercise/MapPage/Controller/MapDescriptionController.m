@@ -8,6 +8,8 @@
 
 #import "MapDescriptionController.h"
 #import "LocateVieController.h"
+#import "MapCompileViewController.h"
+#import "MapMakeViewController.h"
 @interface MapDescriptionController()<UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *arrayName;
@@ -26,8 +28,8 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-    arrayName =@[@"获取定位信息"];
-    didArray = @[@"LocateVieController"];
+    arrayName =@[@"获取定位信息",@"地图详情",@"输入地址定位"];
+    didArray = @[@"LocateVieController",@"MapCompileViewController",@"MapMakeViewController"];
     
     
     
@@ -47,7 +49,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return 3;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {

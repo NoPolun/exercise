@@ -7,7 +7,7 @@
 //
 
 #import "MapPageViewController.h"
-
+#import "UINavigationBar+SZdeleteLine.h"
 @interface MapPageViewController ()
 {
     NSArray *arra;
@@ -21,7 +21,13 @@
 {
     _tableViewMap.delegate = nil;
     _tableViewMap.dataSource = nil;
-    
+}
+
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [UINavigationBar setDeleteNavLine:self.navigationController.navigationBar color:RGB(255, 255, 255)];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];

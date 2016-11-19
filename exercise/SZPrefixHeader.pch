@@ -11,14 +11,18 @@
 //#else // 发布阶段
 //#define SZLog(...)
 //按照屏幕宽度确定控件高度
+
+#define ScreenRect                          [[UIScreen mainScreen] bounds]
+#define ScreenWidth                         [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight                        [[UIScreen mainScreen] bounds].size.height
+
+#define FontSystem(number) [UIFont systemFontOfSize:number]
+#define FontBold(number) [UIFont boldSystemFontOfSize:number]
 #define HIGHSCALE(width,high) (ScreenWidth/width*high)
 #define RGB(__r, __g, __b)  [UIColor colorWithRed:(1.0*(__r)/255)\
 green:(1.0*(__g)/255)\
 blue:(1.0*(__b)/255)\
 alpha:1.0]
-#define ScreenRect                          [[UIScreen mainScreen] bounds]
-#define ScreenWidth                         [[UIScreen mainScreen] bounds].size.width
-#define ScreenHeight                        [[UIScreen mainScreen] bounds].size.height
 #import <Masonry.h>
 #import "UIView+SiZheView.h"
 #import "SDCycleScrollView.h"

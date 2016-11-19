@@ -10,4 +10,5 @@
 #import <AVFoundation/AVFoundation.h>
 @interface UIImage (Video)
 +(UIImage *)imageWithVideo:(NSString *)stringURL;
++(UIImage*) createImageWithColor: (UIColor*) color;
 @end

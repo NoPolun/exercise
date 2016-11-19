@@ -21,5 +21,17 @@
     return [[UIBarButtonItem alloc]initWithCustomView:button];
 }
 
++(instancetype)initWithLeftButtonItem:(NSString *)string color:(UIColor *)color addTarget:(id)target action:(SEL)action
+{
+    
+    UIButton *button =[UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:string forState:UIControlStateNormal];
+    [button setTitleColor:color forState:UIControlStateNormal];
+    [button sizeToFit];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    return [[UIBarButtonItem alloc]initWithCustomView:button];
+}
+
 
 @end

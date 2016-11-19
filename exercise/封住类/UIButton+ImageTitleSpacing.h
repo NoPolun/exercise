@@ -3,7 +3,7 @@
 //  SystemPreferenceDemo
 //
 //  Created by 哲 on 12/28/15.
-//  Copyright © 2015 wiwide. All rights reserved.
+//  Copyright © 2015 XSZ. All rights reserved.
 //处理button的图片和文字显示位置
 
 #import <UIKit/UIKit.h>
