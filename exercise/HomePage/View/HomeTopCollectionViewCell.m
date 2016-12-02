@@ -73,6 +73,7 @@
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
 {
     HomeFistViewController *home =[[HomeFistViewController alloc]init];
+    home.hidesBottomBarWhenPushed = YES;
     [self.delegate pushViewController:home animated:YES];
     NSLog(@"---点击了第%ld张图片", index);
 }

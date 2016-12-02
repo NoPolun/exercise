@@ -25,8 +25,9 @@ blue:(1.0*(__b)/255)\
 alpha:1.0]
 #import <Masonry.h>
 #import "UIView+SiZheView.h"
-#import "SDCycleScrollView.h"
+#import <SDCycleScrollView.h>
 #import "NSString+SiZheString.h"
 #import "MyAttributedStringBuilder.h"
 #import "UINavigationItem+CustomItem.h"
 #import "UIBarButtonItem+SiZheButtonItem.h"
+

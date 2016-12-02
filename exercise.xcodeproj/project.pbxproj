@@ -29,6 +29,11 @@
 		475748351DE04A5C00FCF30D /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475748331DE04A5C00FCF30D /* VideoViewController.m */; };
 		475748391DE0589100FCF30D /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475748381DE0589100FCF30D /* PlayView.m */; };
 		4757483B1DE058B000FCF30D /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4757483A1DE058B000FCF30D /* PlayView.xib */; };
+		47574CE41DE6F09C00FCF30D /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE31DE6F09C00FCF30D /* MessageCell.m */; };
+		47574CE71DE6F1B900FCF30D /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE61DE6F1B900FCF30D /* MessageModel.m */; };
+		47574CEA1DE6F33E00FCF30D /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE91DE6F33E00FCF30D /* CommentModel.m */; };
+		47574CED1DE6F47000FCF30D /* SZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CEC1DE6F47000FCF30D /* SZView.m */; };
+		47574CF01DE6F4DE00FCF30D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */; };
 		477E2E441CFD247000802045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 477E2E431CFD247000802045 /* main.m */; };
 		477E2E4D1CFD247100802045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477E2E4B1CFD247100802045 /* Main.storyboard */; };
 		477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 477E2E4E1CFD247100802045 /* exercise.xcdatamodeld */; };
@@ -146,6 +151,16 @@
 		475748371DE0589100FCF30D /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		475748381DE0589100FCF30D /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		4757483A1DE058B000FCF30D /* PlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
+		47574CE21DE6F09C00FCF30D /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		47574CE31DE6F09C00FCF30D /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		47574CE51DE6F1B900FCF30D /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		47574CE61DE6F1B900FCF30D /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		47574CE81DE6F33E00FCF30D /* CommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
+		47574CE91DE6F33E00FCF30D /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
+		47574CEB1DE6F47000FCF30D /* SZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZView.h; sourceTree = "<group>"; };
+		47574CEC1DE6F47000FCF30D /* SZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZView.m; sourceTree = "<group>"; };
+		47574CEE1DE6F4DE00FCF30D /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
 		477E2E3F1CFD247000802045 /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477E2E431CFD247000802045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		477E2E4C1CFD247100802045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -417,6 +432,10 @@
 		4749EEB91CFD5ED80031A006 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				47574CE51DE6F1B900FCF30D /* MessageModel.h */,
+				47574CE61DE6F1B900FCF30D /* MessageModel.m */,
+				47574CE81DE6F33E00FCF30D /* CommentModel.h */,
+				47574CE91DE6F33E00FCF30D /* CommentModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -432,6 +451,12 @@
 				475748371DE0589100FCF30D /* PlayView.h */,
 				475748381DE0589100FCF30D /* PlayView.m */,
 				4757483A1DE058B000FCF30D /* PlayView.xib */,
+				47574CE21DE6F09C00FCF30D /* MessageCell.h */,
+				47574CE31DE6F09C00FCF30D /* MessageCell.m */,
+				47574CEB1DE6F47000FCF30D /* SZView.h */,
+				47574CEC1DE6F47000FCF30D /* SZView.m */,
+				47574CEE1DE6F4DE00FCF30D /* SDPhotoBrowser.h */,
+				47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -826,8 +851,10 @@
 				47D0C5A71D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
 				47D0C5BF1D33692800E73E88 /* CLayerViewController.m in Sources */,
 				47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */,
+				47574CED1DE6F47000FCF30D /* SZView.m in Sources */,
 				47D0C60D1D34C02300E73E88 /* VideoImageViewController.m in Sources */,
 				477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */,
+				47574CF01DE6F4DE00FCF30D /* SDPhotoBrowser.m in Sources */,
 				475748261DE02D3500FCF30D /* EffectFirstCollectionViewController.m in Sources */,
 				4749EEB51CFD5EC90031A006 /* ShopingPageViewController.m in Sources */,
 				477E2E441CFD247000802045 /* main.m in Sources */,
@@ -842,6 +869,7 @@
 				475748351DE04A5C00FCF30D /* VideoViewController.m in Sources */,
 				47EB4B8D1D3BD15300C136F1 /* UIButton+EnlargeEdge.m in Sources */,
 				47D0C6121D34CBFA00E73E88 /* LocateVieController.m in Sources */,
+				47574CEA1DE6F33E00FCF30D /* CommentModel.m in Sources */,
 				4749EEDB1CFE6DE30031A006 /* RequestNetWork.m in Sources */,
 				47EB4B8A1D3BD08300C136F1 /* UIView+Extnesion.m in Sources */,
 				475748311DE02FDE00FCF30D /* FlowOut.m in Sources */,
@@ -862,10 +890,12 @@
 				475748391DE0589100FCF30D /* PlayView.m in Sources */,
 				47D0C5881D2F874A00E73E88 /* HomeButtonView.m in Sources */,
 				47D0C5931D2F94AA00E73E88 /* HomeTopCollectionViewCell.m in Sources */,
+				47574CE71DE6F1B900FCF30D /* MessageModel.m in Sources */,
 				47D0C5C31D33693500E73E88 /* CATransitionViewController.m in Sources */,
 				47D0C6181D34E22E00E73E88 /* MapMakeViewController.m in Sources */,
 				47EB4AFD1D39240000C136F1 /* ShopFirstViewController.m in Sources */,
 				4757482D1DE02E3500FCF30D /* CellViewCollectionViewCell.m in Sources */,
+				47574CE41DE6F09C00FCF30D /* MessageCell.m in Sources */,
 				47EB4B041D39D3FB00C136F1 /* MapCompileViewController.m in Sources */,
 				475748081DE01F2700FCF30D /* RootTabBarViewController.m in Sources */,
 			);
@@ -1031,10 +1061,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/Parse",
+				);
 				GCC_PREFIX_HEADER = /Users/xusizhe/Desktop/exercise/exercise/SZPrefixHeader.pch;
 				INFOPLIST_FILE = exercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/exercise/EaseMobSDK/lib",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/VoiceConvert/opencore-amrwb",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1050,10 +1090,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/Parse",
+				);
 				GCC_PREFIX_HEADER = /Users/xusizhe/Desktop/exercise/exercise/SZPrefixHeader.pch;
 				INFOPLIST_FILE = exercise/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/exercise/EaseMobSDK/lib",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/VoiceConvert/opencore-amrnb",
+					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/VoiceConvert/opencore-amrwb",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

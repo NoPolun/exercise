@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "HomeButtonView.h"
+
 @interface HomeTopCollectionViewCell : UICollectionViewCell<SDCycleScrollViewDelegate,buttonClick>
 @property(nonatomic,strong)UINavigationController *delegate;
 @end
