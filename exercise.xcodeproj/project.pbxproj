@@ -29,10 +29,8 @@
 		475748351DE04A5C00FCF30D /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475748331DE04A5C00FCF30D /* VideoViewController.m */; };
 		475748391DE0589100FCF30D /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 475748381DE0589100FCF30D /* PlayView.m */; };
 		4757483B1DE058B000FCF30D /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4757483A1DE058B000FCF30D /* PlayView.xib */; };
-		47574CE41DE6F09C00FCF30D /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE31DE6F09C00FCF30D /* MessageCell.m */; };
 		47574CE71DE6F1B900FCF30D /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE61DE6F1B900FCF30D /* MessageModel.m */; };
 		47574CEA1DE6F33E00FCF30D /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CE91DE6F33E00FCF30D /* CommentModel.m */; };
-		47574CED1DE6F47000FCF30D /* SZView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CEC1DE6F47000FCF30D /* SZView.m */; };
 		47574CF01DE6F4DE00FCF30D /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */; };
 		477E2E441CFD247000802045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 477E2E431CFD247000802045 /* main.m */; };
 		477E2E4D1CFD247100802045 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477E2E4B1CFD247100802045 /* Main.storyboard */; };
@@ -89,7 +87,11 @@
 		47EB4B891D3BD08300C136F1 /* AttributeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB4B861D3BD08300C136F1 /* AttributeView.m */; };
 		47EB4B8A1D3BD08300C136F1 /* UIView+Extnesion.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB4B881D3BD08300C136F1 /* UIView+Extnesion.m */; };
 		47EB4B8D1D3BD15300C136F1 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB4B8C1D3BD15300C136F1 /* UIButton+EnlargeEdge.m */; };
-		ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */; };
+		47F247A01DF2CAF40064A797 /* libReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F2479F1DF2CAF40064A797 /* libReactiveCocoa.a */; };
+		47F247A41DF2E9B80064A797 /* ReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F247A21DF2E9B80064A797 /* ReactiveCocoaViewController.m */; };
+		47F247A51DF2E9B80064A797 /* ReactiveCocoaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F247A31DF2E9B80064A797 /* ReactiveCocoaViewController.xib */; };
+		47F247A81DF2EC980064A797 /* ReactiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F247A71DF2EC980064A797 /* ReactiveView.m */; };
+		95DE5E0F4A265E130694E4D3 /* libPods-exercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD75D315D58C753C47097416 /* libPods-exercise.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +114,9 @@
 /* Begin PBXFileReference section */
 		4736A1D01D2F66FF00815DE4 /* MyAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAttributedStringBuilder.h; sourceTree = "<group>"; };
 		4736A1D11D2F66FF00815DE4 /* MyAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAttributedStringBuilder.m; sourceTree = "<group>"; };
+		474312131DF2B8FE00F5116F /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		474312141DF2B8FE00F5116F /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = "../../Library/Developer/exercise-gadzbbjmtfewnyhkvhyghanzhcpn/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework"; sourceTree = "<group>"; };
+		474312171DF2B90600F5116F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../Library/Developer/exercise-gadzbbjmtfewnyhkvhyghanzhcpn/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
 		4749EE7A1CFD2CE90031A006 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4749EE7B1CFD2CE90031A006 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4749EE7C1CFD2CE90031A006 /* SZBasenavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZBasenavigationController.h; sourceTree = "<group>"; };
@@ -151,14 +156,10 @@
 		475748371DE0589100FCF30D /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		475748381DE0589100FCF30D /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		4757483A1DE058B000FCF30D /* PlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
-		47574CE21DE6F09C00FCF30D /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
-		47574CE31DE6F09C00FCF30D /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
 		47574CE51DE6F1B900FCF30D /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
 		47574CE61DE6F1B900FCF30D /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 		47574CE81DE6F33E00FCF30D /* CommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
 		47574CE91DE6F33E00FCF30D /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
-		47574CEB1DE6F47000FCF30D /* SZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZView.h; sourceTree = "<group>"; };
-		47574CEC1DE6F47000FCF30D /* SZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZView.m; sourceTree = "<group>"; };
 		47574CEE1DE6F4DE00FCF30D /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
 		47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
 		477E2E3F1CFD247000802045 /* exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,8 +232,14 @@
 		47EB4B881D3BD08300C136F1 /* UIView+Extnesion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extnesion.m"; sourceTree = "<group>"; };
 		47EB4B8B1D3BD15300C136F1 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
 		47EB4B8C1D3BD15300C136F1 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
-		9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F2479F1DF2CAF40064A797 /* libReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReactiveCocoa.a; path = "../../Library/Developer/exercise-gadzbbjmtfewnyhkvhyghanzhcpn/Build/Products/Debug-iphonesimulator/ReactiveCocoa/libReactiveCocoa.a"; sourceTree = "<group>"; };
+		47F247A11DF2E9B80064A797 /* ReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		47F247A21DF2E9B80064A797 /* ReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		47F247A31DF2E9B80064A797 /* ReactiveCocoaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactiveCocoaViewController.xib; sourceTree = "<group>"; };
+		47F247A61DF2EC980064A797 /* ReactiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveView.h; sourceTree = "<group>"; };
+		47F247A71DF2EC980064A797 /* ReactiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveView.m; sourceTree = "<group>"; };
 		DBD7F3836EDAD75AC2B2F50B /* Pods-exercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.debug.xcconfig"; sourceTree = "<group>"; };
+		DD75D315D58C753C47097416 /* libPods-exercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DE9EE8D2487D26FAED3E6B /* Pods-exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercise/Pods-exercise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -241,9 +248,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47F247A01DF2CAF40064A797 /* libReactiveCocoa.a in Frameworks */,
 				47D0C61B1D34E5D300E73E88 /* MapKit.framework in Frameworks */,
 				47D0C6151D34D8A900E73E88 /* CoreLocation.framework in Frameworks */,
-				ABC01A3E521537616673AD20 /* libPods-exercise.a in Frameworks */,
+				95DE5E0F4A265E130694E4D3 /* libPods-exercise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +275,13 @@
 		028873CB757B78CE08386E6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47F2479F1DF2CAF40064A797 /* libReactiveCocoa.a */,
+				474312171DF2B90600F5116F /* Result.framework */,
+				474312131DF2B8FE00F5116F /* ReactiveCocoa.framework */,
+				474312141DF2B8FE00F5116F /* ReactiveSwift.framework */,
 				47D0C61A1D34E5D300E73E88 /* MapKit.framework */,
 				47D0C6141D34D8A900E73E88 /* CoreLocation.framework */,
-				9C6AE1F4BA7D1C7ED5B7B83F /* libPods-exercise.a */,
+				DD75D315D58C753C47097416 /* libPods-exercise.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -425,6 +437,9 @@
 				4757481D1DE0284200FCF30D /* CommentViewController.h */,
 				4757481E1DE0284200FCF30D /* CommentViewController.m */,
 				4757481F1DE0284200FCF30D /* CommentViewController.xib */,
+				47F247A11DF2E9B80064A797 /* ReactiveCocoaViewController.h */,
+				47F247A21DF2E9B80064A797 /* ReactiveCocoaViewController.m */,
+				47F247A31DF2E9B80064A797 /* ReactiveCocoaViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -451,12 +466,10 @@
 				475748371DE0589100FCF30D /* PlayView.h */,
 				475748381DE0589100FCF30D /* PlayView.m */,
 				4757483A1DE058B000FCF30D /* PlayView.xib */,
-				47574CE21DE6F09C00FCF30D /* MessageCell.h */,
-				47574CE31DE6F09C00FCF30D /* MessageCell.m */,
-				47574CEB1DE6F47000FCF30D /* SZView.h */,
-				47574CEC1DE6F47000FCF30D /* SZView.m */,
 				47574CEE1DE6F4DE00FCF30D /* SDPhotoBrowser.h */,
 				47574CEF1DE6F4DE00FCF30D /* SDPhotoBrowser.m */,
+				47F247A61DF2EC980064A797 /* ReactiveView.h */,
+				47F247A71DF2EC980064A797 /* ReactiveView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -666,12 +679,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 477E2E6F1CFD247100802045 /* Build configuration list for PBXNativeTarget "exercise" */;
 			buildPhases = (
-				95AD710A7EE0EFD071F6ACE3 /* 📦 Check Pods Manifest.lock */,
+				95AD710A7EE0EFD071F6ACE3 /* [CP] Check Pods Manifest.lock */,
 				477E2E3B1CFD247000802045 /* Sources */,
 				477E2E3C1CFD247000802045 /* Frameworks */,
 				477E2E3D1CFD247000802045 /* Resources */,
-				E7F4C257E071D6459FE49CBB /* 📦 Embed Pods Frameworks */,
-				339E7D13E4368625666AD421 /* 📦 Copy Pods Resources */,
+				E7F4C257E071D6459FE49CBB /* [CP] Embed Pods Frameworks */,
+				339E7D13E4368625666AD421 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -730,6 +743,7 @@
 					477E2E3E1CFD247000802045 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 2NJ9C6HADX;
+						LastSwiftMigration = 0800;
 					};
 					477E2E5A1CFD247100802045 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -767,6 +781,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				477E2E551CFD247100802045 /* LaunchScreen.storyboard in Resources */,
+				47F247A51DF2E9B80064A797 /* ReactiveCocoaViewController.xib in Resources */,
 				4757482E1DE02E3500FCF30D /* CellViewCollectionViewCell.xib in Resources */,
 				47BC012A1D2E3EB2006E4908 /* Images.xcassets in Resources */,
 				477E2E521CFD247100802045 /* Assets.xcassets in Resources */,
@@ -794,14 +809,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		339E7D13E4368625666AD421 /* 📦 Copy Pods Resources */ = {
+		339E7D13E4368625666AD421 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -809,30 +824,31 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-exercise/Pods-exercise-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95AD710A7EE0EFD071F6ACE3 /* 📦 Check Pods Manifest.lock */ = {
+		95AD710A7EE0EFD071F6ACE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E7F4C257E071D6459FE49CBB /* 📦 Embed Pods Frameworks */ = {
+		E7F4C257E071D6459FE49CBB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/myfile",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -851,7 +867,6 @@
 				47D0C5A71D2FF4B900E73E88 /* UIBarButtonItem+SiZheButtonItem.m in Sources */,
 				47D0C5BF1D33692800E73E88 /* CLayerViewController.m in Sources */,
 				47B4DFA01D2ECF5B00863D8E /* YGSectionHeaderView.m in Sources */,
-				47574CED1DE6F47000FCF30D /* SZView.m in Sources */,
 				47D0C60D1D34C02300E73E88 /* VideoImageViewController.m in Sources */,
 				477E2E501CFD247100802045 /* exercise.xcdatamodeld in Sources */,
 				47574CF01DE6F4DE00FCF30D /* SDPhotoBrowser.m in Sources */,
@@ -878,10 +893,12 @@
 				4749EE811CFD2CE90031A006 /* SZBasenavigationController.m in Sources */,
 				4749EE881CFD2D440031A006 /* SZBaseViewController.m in Sources */,
 				47EB4B891D3BD08300C136F1 /* AttributeView.m in Sources */,
+				47F247A81DF2EC980064A797 /* ReactiveView.m in Sources */,
 				4749EEC71CFD632A0031A006 /* HomeModel.m in Sources */,
 				47D0C58F1D2F8A9200E73E88 /* UIButton+ImageTitleSpacing.m in Sources */,
 				4736A1D21D2F66FF00815DE4 /* MyAttributedStringBuilder.m in Sources */,
 				4749EE821CFD2CE90031A006 /* UITabBarController+XV.m in Sources */,
+				47F247A41DF2E9B80064A797 /* ReactiveCocoaViewController.m in Sources */,
 				47D0C5BB1D33691A00E73E88 /* MapDescriptionController.m in Sources */,
 				4749EEC31CFD5EE20031A006 /* MapPageViewController.m in Sources */,
 				47B45F431D2EB51300DEA525 /* NSString+SiZheString.m in Sources */,
@@ -895,7 +912,6 @@
 				47D0C6181D34E22E00E73E88 /* MapMakeViewController.m in Sources */,
 				47EB4AFD1D39240000C136F1 /* ShopFirstViewController.m in Sources */,
 				4757482D1DE02E3500FCF30D /* CellViewCollectionViewCell.m in Sources */,
-				47574CE41DE6F09C00FCF30D /* MessageCell.m in Sources */,
 				47EB4B041D39D3FB00C136F1 /* MapCompileViewController.m in Sources */,
 				475748081DE01F2700FCF30D /* RootTabBarViewController.m in Sources */,
 			);
@@ -1064,6 +1080,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ReactiveCocoa",
 				);
 				GCC_PREFIX_HEADER = /Users/xusizhe/Desktop/exercise/exercise/SZPrefixHeader.pch;
 				INFOPLIST_FILE = exercise/Info.plist;
@@ -1078,6 +1095,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1093,6 +1111,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/exercise/ESIM/3rdparty/Parse",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ReactiveCocoa",
 				);
 				GCC_PREFIX_HEADER = /Users/xusizhe/Desktop/exercise/exercise/SZPrefixHeader.pch;
 				INFOPLIST_FILE = exercise/Info.plist;
@@ -1107,6 +1126,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.exercise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

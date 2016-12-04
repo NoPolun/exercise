@@ -11,6 +11,7 @@
 #import "CommentViewController.h"
 #import "EffectFirstCollectionViewController.h"
 #import "UINavigationBar+SZdeleteLine.h"
+#import "ReactiveCocoaViewController.h"
 @interface ChatPageViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *arra;
@@ -36,11 +37,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"评论视频";
-    arra  = @[@"评论",@"视频",@"collectionView效果设计1"];
+    arra  = @[@"评论",@"视频",@"collectionView效果设计1",@"ReactiveCocoa"];
     self.view.backgroundColor =[UIColor whiteColor];
     array =@[@"CommentViewController",
              @"VideoViewController",
-             @"EffectFirstCollectionViewController"];
+             @"EffectFirstCollectionViewController",@"ReactiveCocoaViewController"];
     [self creatTableView];
     
 }

@@ -46,8 +46,8 @@
         self.messageBigPics     = dic[@"messageBigPics"];
         
         for (NSDictionary *eachDic in dic[@"commentMessages"] ) {
-            CommentModel *commentModel = [[CommentModel alloc] initWithDic:eachDic];
-            [self.commentModelArray addObject:commentModel];
+//            CommentModel *commentModel = [[CommentModel alloc] initWithDic:eachDic];
+//            [self.commentModelArray addObject:commentModel];
         }
     }
     return self;

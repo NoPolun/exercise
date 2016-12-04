@@ -19,6 +19,13 @@ PODS:
   - MBProgressHUD (0.9.2)
   - MD5Digest (1.1.0)
   - MJRefresh (3.1.0)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - SBJson (4.0.2)
   - SDCycleScrollView (1.64):
     - SDWebImage (~> 3.7)
@@ -33,6 +40,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.2)
   - MD5Digest (~> 1.1.0)
   - MJRefresh (~> 3.1.0)
+  - ReactiveCocoa (~> 2.5)
   - SBJson (~> 4.0.2)
   - SDCycleScrollView (~> 1.64)
   - SDWebImage (~> 3.7.6)
@@ -44,10 +52,11 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
-  SBJson: c18691cc18375b14664ff0fec841f8c4faef1934
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SBJson: 16404e557ff6346b506e9e12f2d83e6782f37f6f
   SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 3d9d49caf1dd3c043a94ac270005ede6b8cc801f
+PODFILE CHECKSUM: c6f16a82558cae9ad36c322962744dc36563b18f
 
-COCOAPODS: 1.0.0.rc.2
+COCOAPODS: 1.1.1

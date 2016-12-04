@@ -9,4 +9,4 @@ pod 'Masonry', '~> 1.0.0'
 pod 'MD5Digest', '~> 1.1.0'
 pod 'JSONModel', '~> 1.2.0'
 pod 'SDCycleScrollView', '~> 1.64'
-
+pod 'ReactiveCocoa', '~> 2.5'
